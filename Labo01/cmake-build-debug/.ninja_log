@@ -1,0 +1,15 @@
+# ninja log v5
+1	1065	7020045261495858	CMakeFiles/tests_ejercitacion.dir/src/algobot.cpp.obj	80c88e84c9260026
+21	1448	7020045265332479	CMakeFiles/gtest_main.dir/tests/gtest-1.8.1/gtest_main.cc.obj	d010f45f2d8bfa1
+1449	1615	7020045267001141	libgtest_main.a	df59b0366a1341af
+30	8343	7020045334061952	CMakeFiles/gtest.dir/tests/gtest-1.8.1/gtest-all.cc.obj	2a29ba69e6724f6e
+8346	9734	7020045348074242	libgtest.a	f55e01b27984673e
+14	4537	7020655592738562	CMakeFiles/tests_ejercitacion.dir/tests/tests_funciones.cpp.obj	f1b51ea5c166f2dd
+4538	7609	7020655623244592	tests_ejercitacion.exe	32a4dad916645a28
+30	1843	7021501969342385	CMakeFiles/tests_ejercitacion.dir/src/algobot.cpp.obj	540e83bffcb65270
+54	2735	7021501978251309	CMakeFiles/gtest_main.dir/tests/gtest-1.8.1/gtest_main.cc.obj	e4ab2519b202d818
+2736	2908	7021501979970616	libgtest_main.a	df59b0366a1341af
+16	5415	7021502004989175	CMakeFiles/tests_ejercitacion.dir/tests/tests_funciones.cpp.obj	4988fcc414c259b
+42	12714	7021502077867189	CMakeFiles/gtest.dir/tests/gtest-1.8.1/gtest-all.cc.obj	84f295127b0ea3ae
+12715	14670	7021502097575258	libgtest.a	f55e01b27984673e
+14670	17891	7021502129655575	tests_ejercitacion.exe	32a4dad916645a28
