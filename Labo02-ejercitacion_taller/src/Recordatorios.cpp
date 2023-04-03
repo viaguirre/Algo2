@@ -125,6 +125,8 @@ class Recordatorio{
         Fecha fecha();
         Horario horario();
         string mensaje();
+        bool operator<(Recordatorio r);
+
 
     private:
         Fecha fecha_;
@@ -149,6 +151,10 @@ string Recordatorio::mensaje(){
 ostream& operator<<(ostream& os, Recordatorio r) {
     os << r.mensaje() << " @ " << r.fecha().dia() << "/" << r.fecha().mes() << " " << r.horario().hora() << ":" << r.horario().min();
     return os;
+}
+
+bool Recordatorio::operator<(Recordatorio r) {
+    return this->horario()<r.horario();
 }
 
 // Ejercicio 14
@@ -179,9 +185,7 @@ list<Recordatorio> Agenda::recordatorios_de_hoy(){
             rec.push_back(r);
         }
     }
-    rec.sort([](Recordatorio r1, Recordatorio r2) {
-        return r1.horario() < r2.horario();
-    });
+    rec.sort();
     return rec;
 }
 
