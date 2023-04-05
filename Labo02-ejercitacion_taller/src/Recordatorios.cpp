@@ -120,12 +120,22 @@ bool Horario::operator<(Horario h) {
 // Ejercicio 13
 
 class Recordatorio{
+<<<<<<< HEAD
 public:
     Recordatorio(Fecha fecha, Horario horario, string mensaje);
     Fecha fecha();
     Horario horario();
     string mensaje();
     bool operator<(Recordatorio r);
+=======
+    public:
+        Recordatorio(Fecha fecha, Horario horario, string mensaje);
+        Fecha fecha();
+        Horario horario();
+        string mensaje();
+        bool operator<(Recordatorio r);
+
+>>>>>>> 756db52a5bc167972c3a0fed226c038023933b34
 
 
 private:
