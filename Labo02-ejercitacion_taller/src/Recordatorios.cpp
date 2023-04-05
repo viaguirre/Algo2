@@ -8,10 +8,10 @@ using uint = unsigned int;
 // Pre: 0 <= mes < 12
 uint dias_en_mes(uint mes) {
     uint dias[] = {
-        // ene, feb, mar, abr, may, jun
-        31, 28, 31, 30, 31, 30,
-        // jul, ago, sep, oct, nov, dic
-        31, 31, 30, 31, 30, 31
+            // ene, feb, mar, abr, may, jun
+            31, 28, 31, 30, 31, 30,
+            // jul, ago, sep, oct, nov, dic
+            31, 31, 30, 31, 30, 31
     };
     return dias[mes - 1];
 }
@@ -20,16 +20,16 @@ uint dias_en_mes(uint mes) {
 
 // Clase Fecha
 class Fecha {
-  public:
+public:
     Fecha(int mes, int dia);
     int mes();
     int dia();
-    #if EJ >= 9 // Para ejercicio 9
+#if EJ >= 9 // Para ejercicio 9
     bool operator==(Fecha o);
-    #endif
+#endif
     void incrementar_dia();
 
-  private:
+private:
     int mes_;
     int dia_;
 };
@@ -58,32 +58,32 @@ bool Fecha::operator==(Fecha o) {
 #endif
 
 void Fecha::incrementar_dia(){
-   if(dia_<dias_en_mes(mes_)){
-       dia_++;
-   }else{
-       if(mes_<12){
-           dia_=1;
-           mes_++;
-       }else{
-           dia_=1;
-           mes_=1;
-       }
-   }
+    if(dia_<dias_en_mes(mes_)){
+        dia_++;
+    }else{
+        if(mes_<12){
+            dia_=1;
+            mes_++;
+        }else{
+            dia_=1;
+            mes_=1;
+        }
+    }
 }
 
 // Ejercicio 11, 12
 
 class Horario{
-    public:
-        Horario(uint hora, uint min);
-        uint hora();
-        uint min();
-        bool operator==(Horario o);
-        bool operator<(Horario h);
+public:
+    Horario(uint hora, uint min);
+    uint hora();
+    uint min();
+    bool operator==(Horario o);
+    bool operator<(Horario h);
 
-    private:
-        int hora_;
-        int min_;
+private:
+    int hora_;
+    int min_;
 };
 
 Horario::Horario(uint hora, uint min): hora_(hora), min_(min){}
@@ -120,16 +120,18 @@ bool Horario::operator<(Horario h) {
 // Ejercicio 13
 
 class Recordatorio{
-    public:
-        Recordatorio(Fecha fecha, Horario horario, string mensaje);
-        Fecha fecha();
-        Horario horario();
-        string mensaje();
+public:
+    Recordatorio(Fecha fecha, Horario horario, string mensaje);
+    Fecha fecha();
+    Horario horario();
+    string mensaje();
+    bool operator<(Recordatorio r);
 
-    private:
-        Fecha fecha_;
-        Horario horario_;
-        string mensaje_;
+
+private:
+    Fecha fecha_;
+    Horario horario_;
+    string mensaje_;
 };
 
 Recordatorio::Recordatorio(Fecha fecha, Horario horario, string mensaje):fecha_(fecha), horario_(horario), mensaje_(mensaje){}
@@ -151,19 +153,23 @@ ostream& operator<<(ostream& os, Recordatorio r) {
     return os;
 }
 
+bool Recordatorio::operator<(Recordatorio r) {
+    return this->horario()<r.horario();
+}
+
 // Ejercicio 14
 
 class Agenda {
-    public:
-        Agenda(Fecha fecha_inicial);
-        void agregar_recordatorio(Recordatorio rec);
-        void incrementar_dia();
-        list<Recordatorio> recordatorios_de_hoy();
-        Fecha hoy();
+public:
+    Agenda(Fecha fecha_inicial);
+    void agregar_recordatorio(Recordatorio rec);
+    void incrementar_dia();
+    list<Recordatorio> recordatorios_de_hoy();
+    Fecha hoy();
 
-    private:
-        Fecha hoy_;
-        list<Recordatorio> recordatorios_de_hoy_;
+private:
+    Fecha hoy_;
+    list<Recordatorio> recordatorios_de_hoy_;
 };
 
 Agenda::Agenda(Fecha fecha_inicial): hoy_(fecha_inicial) {}
@@ -179,9 +185,7 @@ list<Recordatorio> Agenda::recordatorios_de_hoy(){
             rec.push_back(r);
         }
     }
-    rec.sort([](Recordatorio r1, Recordatorio r2) {
-        return r1.horario() < r2.horario();
-    });
+    rec.sort();
     return rec;
 }
 
