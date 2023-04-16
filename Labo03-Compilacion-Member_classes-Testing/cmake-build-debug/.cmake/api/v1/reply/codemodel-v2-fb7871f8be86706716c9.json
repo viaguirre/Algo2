@@ -1,0 +1,114 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "solucion",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ej1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ej1-Debug-6614a0e3a4307f3abeef.json",
+					"name" : "ej1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ej2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ej2-Debug-15aa1b9ff2f4a24bdbd1.json",
+					"name" : "ej2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ej3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ej3-Debug-baff28e56e5b0902b551.json",
+					"name" : "ej3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ej_testing::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ej_testing-Debug-d03e3ac73d9d2a10ebdc.json",
+					"name" : "ej_testing",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gtest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gtest-Debug-deb1fc72ddbc4d7f62ca.json",
+					"name" : "gtest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gtest_main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gtest_main-Debug-65a81932df3d7f87ea30.json",
+					"name" : "gtest_main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "solucion_testing::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-solucion_testing-Debug-2bfd4b6a052504a0a23d.json",
+					"name" : "solucion_testing",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/viagu/Desktop/Algo2/Laboratorio/Labo03-Compilacion-Member_classes-Testing/cmake-build-debug",
+		"source" : "C:/Users/viagu/Desktop/Algo2/Laboratorio/Labo03-Compilacion-Member_classes-Testing"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

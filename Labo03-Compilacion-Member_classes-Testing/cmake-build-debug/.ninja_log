@@ -1,0 +1,25 @@
+# ninja log v5
+32	232	7033684533132648	CMakeFiles/ej2.dir/src/Periodo.cpp.obj	e53707fe317cf7e8
+22	137	7033691960805197	CMakeFiles/ej1.dir/src/Periodo.cpp.obj	e00d4a095b7d5359
+12	1547	7033690228899050	CMakeFiles/ej2.dir/tests/ej2_periodo_y_fecha.cpp.obj	5683c05576a9b39e
+1	1454	7033684545480095	CMakeFiles/gtest_main.dir/tests/gtest-1.8.1/gtest_main.cc.obj	6d3abd4d74eadae3
+19	2425	7033685800916183	libgtest.a	f55e01b27984673e
+11	191	7033685778559968	libgtest_main.a	df59b0366a1341af
+12	11632	7033684646916824	CMakeFiles/gtest.dir/tests/gtest-1.8.1/gtest-all.cc.obj	b533835d2b64dd61
+2326	4669	7033686679976754	ej2.exe	da965161681b84d0
+22	856	7033810043255061	CMakeFiles/solucion_testing.dir/src/Truco.cpp.obj	9a85818f0b460b0d
+35	187	7033692055570878	CMakeFiles/ej3.dir/src/Periodo.cpp.obj	fc11037431c03d08
+9	1687	7033691976152296	CMakeFiles/ej1.dir/tests/ej1_periodo.cpp.obj	cbc8011b410316d5
+1687	4012	7033691999343687	ej1.exe	d59239ea3b947790
+17	1771	7033692071420906	CMakeFiles/ej3.dir/tests/ej3_funciones.cpp.obj	8a698f7e7b168b2d
+25	175	7033692055570878	CMakeFiles/ej3.dir/src/Funciones.cpp.obj	c8366229de019e15
+7	180	7033692055570878	CMakeFiles/ej3.dir/src/Fecha.cpp.obj	d5cb433522ff9784
+1772	4102	7033692094649446	ej3.exe	21eb9cfdedc8897a
+32	1403	7033810048579109	CMakeFiles/solucion_testing.dir/src/Libreta.cpp.obj	8ff7e268d533384b
+2	1378	7033803601187207	CMakeFiles/ej_testing.dir/src/Truco.cpp.obj	24beb22ce9ab2235
+13	1690	7033803604156853	CMakeFiles/ej_testing.dir/src/Libreta.cpp.obj	c16cb19a23028de3
+7	2340	7033804230083588	CMakeFiles/ej_testing.dir/tests/ej_testing.cpp.obj	21c26bb8224c20a
+9	2423	7033810058889997	CMakeFiles/solucion_testing.dir/tests/solucion_testing.cpp.obj	1f58158aa79dc382
+2424	4969	7033810084080331	solucion_testing.exe	962d397af2771072
+2	482	7033811325136332	build.ninja	b3d46c287a2b1e9f
+9	2639	7033811353471604	ej_testing.exe	d9dee3adba39ee1c

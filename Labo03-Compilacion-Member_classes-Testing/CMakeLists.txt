@@ -17,9 +17,12 @@ add_executable(ej3 tests/ej3_funciones.cpp
                src/Funciones.cpp src/Periodo.cpp src/Fecha.cpp)
 add_executable(solucion_testing tests/solucion_testing.cpp src/Truco.cpp
     src/Libreta.cpp)
+add_executable(ej_testing tests/ej_testing.cpp src/Truco.cpp
+        src/Libreta.cpp)
 
 # Necesitamos asociar los archivos del framework de testing
 target_link_libraries(ej1 gtest gtest_main)
 target_link_libraries(ej2 gtest gtest_main)
 target_link_libraries(ej3 gtest gtest_main)
 target_link_libraries(solucion_testing gtest gtest_main)
+target_link_libraries(ej_testing gtest gtest_main)
