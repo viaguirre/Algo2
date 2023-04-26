@@ -1,0 +1,17 @@
+# ninja log v5
+26	753	7039888961993248	CMakeFiles/ej1.dir/src/ConexionJugador.cpp.obj	16bf082beab75c08
+53	852	7039888963086798	CMakeFiles/ej1.dir/src/Internet.cpp.obj	8021d3813edbd550
+9	2036	7039888974966242	CMakeFiles/gtest_main.dir/tests/gtest-1.8.1/gtest_main.cc.obj	4c0b6459682e14f0
+18	2361	7039888978091148	CMakeFiles/ej1.dir/tests/sdm_tests.cpp.obj	f31c3fb547fbac0f
+1	8846	7039889042902521	CMakeFiles/gtest.dir/tests/gtest-1.8.1/gtest-all.cc.obj	9946b5f44ddc7d6b
+16	173	7039889452930493	libgtest_main.a	df59b0366a1341af
+25	485	7039889456073370	CMakeFiles/ej1.dir/src/SistemaDeMensajes.cpp.obj	48c58832b43cfaf
+7	1584	7039889467176147	libgtest.a	f55e01b27984673e
+8	461	7039898405527722	CMakeFiles/ej1.dir/src/SistemaDeMensajes.cpp.obj	48c58832b43cfaf
+462	2194	7039898422777461	ej1.exe	b791bb80af74040d
+22	757	7039928287554036	CMakeFiles/ej3.dir/src/ConexionJugador.cpp.obj	a8a4033bca366b9f
+30	766	7039928287554036	CMakeFiles/ej3.dir/src/Internet.cpp.obj	138345569abe6efb
+15	1990	7039928299861353	CMakeFiles/ej3.dir/tests/sdm_tests.cpp.obj	fa02693e1c8850d9
+6	583	7039929136804814	CMakeFiles/ej3.dir/src/SistemaDeMensajes.cpp.obj	5b1d524600189700
+17	2062	7039929151505517	CMakeFiles/ej3.dir/tests/sdm_tests.cpp.obj	fa02693e1c8850d9
+2063	4028	7039929171173396	ej3.exe	31a0cdac61b94bc8
