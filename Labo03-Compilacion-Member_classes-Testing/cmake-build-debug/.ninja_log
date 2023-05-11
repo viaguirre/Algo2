@@ -21,5 +21,5 @@
 7	2340	7033804230083588	CMakeFiles/ej_testing.dir/tests/ej_testing.cpp.obj	21c26bb8224c20a
 9	2423	7033810058889997	CMakeFiles/solucion_testing.dir/tests/solucion_testing.cpp.obj	1f58158aa79dc382
 2424	4969	7033810084080331	solucion_testing.exe	962d397af2771072
-2	482	7033811325136332	build.ninja	b3d46c287a2b1e9f
+2	482	7033824732117320	build.ninja	b3d46c287a2b1e9f
 9	2639	7033811353471604	ej_testing.exe	d9dee3adba39ee1c
